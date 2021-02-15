@@ -42,29 +42,6 @@ resultado = resultado + String.fromCharCode(ascii);
 }
 
   
-/*decode:(offset, message) =>{
-  //console.log(offset)
-  //console.log(message)
-    let resultado = "";
-    let ascii = 0;
-  //console.log(message.lenght)
-for(let i=0; i<message.lenght;i++){
-  ascii=message.charCodeAt(i)
-  //console.log(ascii)
-  if(ascii>=65 && ascii<=90){
-  ascii = (ascii+39-parseInt(offset))%26+65;
-   }
-  if(ascii>=97 && ascii <=122){
-    ascii = (ascii-71-parseInt(offset))%26+97;
-    
-  }
-  
-  resultado = resultado + String.fromCharCode(ascii);
-}
-       return resultado;
-
-  }   */
 
     
- 
 export default cipher;
