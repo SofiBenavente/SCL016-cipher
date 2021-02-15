@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>D-ciframe!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  
+  <body>
+
+    <div class="contenedor" align = center;>
+        <img src = "cuadro.png"  width = 1000px; height = 350px; >
+          <div class="centrado">
+            <div id="root">
+             <h1>🙊 Cifra o Descifra tu mensaje 🕵️‍♀️ </h1>
+      
+      
+            </div>
+          </div>
+        </div> 
+        
+    <!--pagina1--> 
+<div id="page1">
+
+  <div class = "box">
+  <p><br><br>En esta sección podrás ingresar un mensaje para que puedas enviarlo sin problema a tu amig@, ya sea creando estrategias de juegos, contar algún secreto o lo que tu desees hacer dentro del mundo gamer. <br><br> Para comenzar, por favor escribe el número de desplazamiento y luego, el mensaje que quieras cifrar o descifrar: <br><br> <b>¡IMPORTANTE!</b> El número de desplazamiento permite determinar que posición tomará la letra original del abecedario al elegir un número determinado. (1-26) <br> </p>
+  </div>
+
+  <br><br>
+
+  <div class ="desplazar"> <input type= "number"  name="offset" id="offset"  placeholder = "N° de posición de la letra"></div>
+  
+  <br>
+  <div class = "p3"><p3>Escribe aquí tu texto: </p3></div>
+  <br>
+  <div class = "texto1"> <textarea name="enter" id="yourText" placeholder="Escribe aquí tu mensaje" cols="60" rows="15"></textarea></div>
+
+  <div class = "botones">
+    <button id = "cifrar">Cifrar</button>
+    <button id = "descifrar">Descifrar</button>
+  </div>
+    
+  
+  <div class = "p4"><p4>Texto cifrado/descifrado:</p4></div>
+  <br>
+  <div class="texto2"><textarea name="newtext" id="newText" cols="60" rows="15" placeholder="tu nuevo texto aparecerá aquí" readonly></textarea></div>
+</div>
+
+<div class = "inicio"></div> <a href="index.html"><button id = "inicio">Volver al inicio</button></a></div>
+
+<script src="index.js" type="module"></script>
+
+ </body>
+</html>

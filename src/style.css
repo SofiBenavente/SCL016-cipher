@@ -1,0 +1,127 @@
+body{
+    text-align: center;
+    width:94%;
+    background-image: url("https://www.wallpapertip.com/wmimgs/76-769726_question-mark-hd-wallpaper15-question-mark-background.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: calibri;
+}
+h1 {
+    font-size:250%;
+    text-align: center;
+}
+p{
+    font-size:100%;
+    background: #f7f5f5;
+    border-top:5px solid #8a4b6a;
+    border-bottom:5px solid #8a4b6a;
+    border-radius:10px;
+    width: 1000px;
+    height: 185px;
+    margin-right: auto;
+    margin-left: auto; 
+}
+
+input {
+    text-decoration:none;
+    font-weight: 500;
+    font-size: 20px;
+    color:#020101;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:30px;
+    padding-right:30px;
+    background-color:#b35ddb;
+    border-color: #d8d8d8;
+    border-width: 3px;
+    border-style: solid;
+    border-radius:35px;
+}
+
+
+textarea {
+    display: inline;
+    
+
+}
+form {
+    display: inline;
+    margin: 50px;
+    }
+
+
+
+button{
+    text-decoration:none;
+    font-weight: 500;
+    font-size: 20px;
+    color:#333333;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:30px;
+    padding-right:30px;
+    background-color:#eb31b3;
+    border-color: #d8d8d8;
+    border-width: 3px;
+    border-style: solid;
+    border-radius:35px;
+
+}
+
+ .contenedor{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+ }
+
+.centrado{
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ }
+ .desplazar{
+text-align: left; 
+margin-right: auto;
+margin-left: 80px;
+
+ }
+
+ .p3{
+ text-align: left;
+ font-size:100%;
+ background: #f7f5f5;
+ border-radius:10px;
+ width: 200px;
+ height: 20px;
+ margin-right: auto;
+ margin-left: 80px; 
+}
+
+.p4{
+    text-align: left;
+    font-size:100%;
+    background: #f7f5f5;
+    border-radius:10px;
+    width: 200px;
+    height: 20px;
+    margin-left: auto;
+    margin-top: -95px;
+     
+}
+ .texto1{
+text-align:left;
+margin-right: auto;
+margin-left: 80px; 
+ }
+ .texto2 {
+text-align: right;
+margin-left: -200px;
+margin-top: 0px;
+}
+
+.botones{
+text-align: center;
+margin-top: -240px;
+}
