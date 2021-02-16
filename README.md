@@ -1,6 +1,6 @@
 # Cifrado César: Proyecto 1: D-ciframe!
 
-### A quíen va dirigido
+### A quien va dirigido
 
 Este proyecto está basado en las necesidades de mujeres y hombres gamers. Básicamente, podrás cifrar y descifrar mensajes enviados por alguna persona, ya sea para crear estrategias, secretos, organización o utilizarlo cómo mensajes en caso de sufrir alguna emergencia o agresión a través de juegos y así informar esta situación.
 
