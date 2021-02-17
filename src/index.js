@@ -15,8 +15,6 @@ import cipher from './cipher.js';
 let cipherCodificar = (click) => {
 
    let text = textCipher.value;
-    text = text.toUpperCase();
-
    let numb = desplazar.value;
 
    let textoCifrado = cipher.encode(numb, text); 
@@ -28,11 +26,8 @@ let cipherCodificar = (click) => {
    
 let cipherDecode = (click) => {
    let text = textCipher.value;
-    text = text.toUpperCase();
-
    let numb = desplazar.value;
-   console.log(text)
-   console.log(numb)
+  
    let textoDescifrado= cipher.decode(numb, text);
    document.getElementById("newText").innerHTML = textoDescifrado;
 }
