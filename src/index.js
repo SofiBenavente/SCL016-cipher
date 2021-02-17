@@ -24,6 +24,7 @@ let cipherCodificar = () => {
    codificar.addEventListener("click", cipherCodificar);
 
    
+   
 let cipherDecode = () => {
    let text = textCipher.value;
    let numb = desplazar.value;
