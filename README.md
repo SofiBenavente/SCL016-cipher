@@ -13,7 +13,7 @@ La segunda pestaña, consiste en una breve instrucción, explicando así la func
 ### Donde encontrar la página
 
 Esta página de cifrado la podrás encontrar en el siguiente link: https://github.com/SofiBenavente/SCL016-cipher
-
+También, podrás encontrar el prototipo del proyecto en: https://www.figma.com/proto/6PRlO5Xxp5sEbqXdZPwJmS/Proyecto-1-de-Laboratoria%3A-Cifrado?node-id=1%3A9&scaling=min-zoom
 ### Herramientas que se utilizaron en el proyecto
 
 - CSS
