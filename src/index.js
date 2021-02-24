@@ -12,7 +12,7 @@ import cipher from './cipher.js';
 // Las dos funciones descritas en index.js son muy similares, sólo cambia el nombre y la función cipher. que codifica o decodifica cada texto ingresado.
 // Finalmente, se agrega la línea de código que llama al boton de cifra o descifra cada texto.
 
-let cipherCodificar = () => {
+const cipherCodificar = () => {
 
    let text = textCipher.value;
    let numb = desplazar.value;
@@ -25,7 +25,7 @@ let cipherCodificar = () => {
 
    
    
-let cipherDecode = () => {
+const cipherDecode = () => {
    let text = textCipher.value;
    let numb = desplazar.value;
 
